@@ -52,5 +52,6 @@ Sinta-se à vontade para acompanhar, sugerir melhorias ou deixar um no repositó
 Estudante de **Análise e Desenvolvimento de Sistemas (ADS) - IFRN**
 
 **🌐 Contato:**
-📧 [kavillykaua@gmail.com](mailto:kavillykaua@gmail.com)
-🐙 [GitHub | kauasantos-dev](https://github.com/kauasantos-dev)
+
+📧 | [kavillykaua@gmail.com](mailto:kavillykaua@gmail.com)
+🐙 | [GitHub - kauasantos-dev](https://github.com/kauasantos-dev)
