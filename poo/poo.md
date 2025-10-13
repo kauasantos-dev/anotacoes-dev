@@ -18,10 +18,14 @@ Programação Orientada a Objetos é uma forma de se programar utilizando códig
 - Dentro da classe, ficam os atributos (características) e os métodos (ações) do objeto
 - Com apenas uma classe, é possível criar uma quantidade N de objetos.
 
+---
+
 ### ♟️ 2. Objeto
 
 - É uma instância da classe, ou seja, é o exemplo real do objeto em ação
 - Os objetos de uma mesma classe possuem os mesmos atributos e métodos, mas os dados de cada objeto são exclusivos.
+
+---
 
 ### 🅰️ 3. Atributos
 São as características que compõem o objeto.
@@ -36,6 +40,8 @@ class InstrumentoDeCorda:
         self.tamanho = tamanho
 ```
 No exemplo acima, cada ítem é um atributo da classe, ou seja, características do objeto.
+
+---
 
 ### Ⓜ️ 4. Métodos
 São as ações que o objeto realiza.
@@ -53,6 +59,8 @@ class InstrumentoDeCorda:
         print("Tocando o instrumento")
 ```
 Como visto no exemplo acima, o método `tocar_instrumento` realiza a ação de tocar o instrumento, e é isso o que os métodos fazem, executam ações relacionadas ao objeto. 
+
+---
 
 ### 🔐 5. Encapsulamento
 
@@ -79,6 +87,8 @@ class ContaBancaria:
         self.__saldo = novo_saldo
 ```
 
+---
+
 ### 👨‍👩‍👧‍👦 6. Herança
 
 Permite criar várias classes que herdam atributos e métodos de outras classes. Isso é algo essencial para reutilização de código, evitando assim repetição e desperdício de tempo.
@@ -95,6 +105,8 @@ class Carro(Veiculo):   # Essa classe herda o mesmo método da classe Veiculo
 carro = Carro()
 carro.mover()   # chamando o método herdado
 ```
+
+---
 
 ### 🎭 7. Polimorfismo
 
