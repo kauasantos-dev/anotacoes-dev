@@ -127,3 +127,61 @@ class Gato(Animal):
         print("Miau Miau!")
 ```
 Note que o mesmo `emitir_som` se comporta de maneira diferente nas classes acima. Isso é polimorfismo.
+
+---
+
+### ➕➖ 8. Sobrecarga de operadores
+
+**Sobrecarga de operadores** é um recurso de POO que permite redefinir o comportamento de operadores aritméticos e lógicos quando aplicados a objetos de classes definidas pelo programador.
+
+### 🔮 Métodos Especiais
+
+O comportamento dos operadores é definido pelos **métodos especiais (ou métodos mágicos)** que são implementados dentro das classes. Cada operador possui o seu próprio método especial.
+
+**⬇️ Exemplo:**
+```python
+class Pessoa:
+    def __init__(self, nome, idade, peso, altura):
+        self.nome = nome
+        self.idade = idade
+        self.peso = peso
+        self.altura = altura
+    
+    def __gt__(self, other):  # Método especial do operador '>'
+        return self.altura > other.altura  # Compara a altura entre dois objetos
+
+clara = Pessoa("Maria Clara", 18, 60, 1.63)
+joao = Pessoa("João Lucas", 19, 70, 1.73)
+print("Clara é maior que João?")
+print(clara > joao)  # Operador '>' sendo usado entre os objetos e chamando o seu método especial __gt__
+```
+No exemplo acima, o operador `>` foi usado entre dois objetos `clara` e `joao` para comparar a altura de ambos. **O operador chama o seu método especial** `__gt__` presente na classe **Pessoa** e o método **executa sua ação**, comparando a altura entre os objetos e retornando **True** ou **False**.
+
+---
+
+### ⚡ Principais Operadores e seus Métodos Especiais
+
+| Operador | Método Especial |
+|----------|----------------|
+| `+`      | `__add__`      |
+| `-`      | `__sub__`      |
+| `*`      | `__mul__`      |
+| `/`      | `__truediv__`  |
+| `//`     | `__floordiv__` |
+| `%`      | `__mod__`      |
+| `**`     | `__pow__`      |
+| `==`     | `__eq__`       |
+| `!=`     | `__ne__`       |
+| `>`      | `__gt__`       |
+| `<`      | `__lt__`       |
+| `>=`     | `__ge__`       |
+| `<=`     | `__le__`       |
+| `+=`     | `__iadd__`     |
+| `-=`     | `__isub__`     |
+| `*=`     | `__imul__`     |
+| `/=`     | `__itruediv__` |
+| `str()`  | `__str__`      |
+| `repr()` | `__repr__`     |
+| `len()`  | `__len__`      |
+| `[]`     | `__getitem__`  |
+| `in`     | `__contains__` |
