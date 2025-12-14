@@ -9,10 +9,10 @@ Aqui estão organizados os principais temas que venho aprendendo ao longo da min
 
 As anotações estão separadas por pastas, cada uma representando um tema de estudo:
 
-- **POO/** → Conceitos de Programação Orientada a Objetos (Python, Java, etc.)  
-- **Banco_de_Dados/** → Modelagem, SQL, DER, chaves e relacionamentos    
-- **Back-End/** → APIs, Node.js, Python, arquitetura, etc.  
-- **DevOps/** → Git, GitHub, Docker, CI/CD, boas práticas  
+- **algoritmos/** → Conceitos de Programação Orientada a Objetos (Python, Java, etc.)  
+- **boas_praticas/** → Modelagem, SQL, DER, chaves e relacionamentos  
+- **poo/** → APIs, Node.js, Python, arquitetura, etc.  
+- **regex/** → Git, GitHub, Docker, CI/CD, boas práticas  
 
 *(novas pastas e conteúdos serão adicionados à medida que o aprendizado evoluir)*
 
@@ -47,11 +47,10 @@ Sinta-se à vontade para acompanhar, sugerir melhorias ou deixar um no repositó
 
 ## 👤 Autor
 
-**Kavilly Kauã**
+**Kauã Santos | Estudante de Análise e Desenvolvimento de Sistemas (ADS) - IFRN**  
 
-Estudante de **Análise e Desenvolvimento de Sistemas (ADS) - IFRN**
+**📞 Contato:**  
 
-**🌐 Contato:**  
-
-📧 [kavillykaua@gmail.com](mailto:kavillykaua@gmail.com)  
-💻 [GitHub | kauasantos-dev](https://github.com/kauasantos-dev)
+**📧 E-mail:** [kavillykaua@gmail.com](mailto:kavillykaua@gmail.com)  
+**💻 GitHub:** [github.com/kauasantos-dev](https://github.com/kauasantos-dev)  
+**🌐 LinkedIn:** [www.linkedin.com/in/kauasantos1](https://www.linkedin.com/in/kauasantos1)  
